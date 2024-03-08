@@ -5,3 +5,11 @@
 .cardy:hover{
     scale: 1.1;
 }
+
+
+.title{
+    transition: 2s;
+}
+.title:hover {
+    font-size: xx-large;
+}
