@@ -6,15 +6,10 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App"
-import PokemonList from "./PokemonList";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
-  },
-  {
-    path: "/pokemonlist/:id",
-    element: <PokemonList/>,
   }
 ]);
 
